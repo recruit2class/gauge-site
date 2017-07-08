@@ -1,0 +1,10 @@
+{
+  "name": "gauge-site",
+  "version": "1.0.0",
+  "repository": {
+    "url": "git@github.com:recruit2class/gauge-site.git",
+    "type": "git"
+  },
+  "author": "Rory Powis <rory@hikkendry.com>",
+  "license": "MIT"
+}
