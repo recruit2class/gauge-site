@@ -6,5 +6,11 @@
     "type": "git"
   },
   "author": "Rory Powis <rory@hikkendry.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "sass --watch styles:public"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
 }
