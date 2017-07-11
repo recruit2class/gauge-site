@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600|Ubuntu:500,700');
+
+$font-heavy: 'Ubuntu', sans-serif;
+$font-light: 'Open Sans', sans-serif;
+
+@mixin heading-large {
+  margin: 0;
+  font-size: 3.950rem;
+  font-weight: bold;
+  font-family: $font-heavy;
+  line-height: 1.089;
+}
+
+@mixin heading-medium {
+  margin: 0;
+  font-size: 2.550rem;
+  font-weight: bold;
+  font-family: $font-heavy;
+  line-height: 1.089;
+}
+
+@mixin heading-small {
+  margin: 0;
+  font-size: 1.650rem;
+  font-weight: bold;
+  font-family: $font-heavy;
+  line-height: 1.089;
+}
+
+body {
+  color: $light;
+  font-family: $font-light;
+}
+
+h1, h2, h3, a, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+}

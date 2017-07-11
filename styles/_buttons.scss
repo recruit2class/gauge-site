@@ -1,0 +1,15 @@
+a.button {
+  background: $light;
+  color: $primary;
+  border: 2px solid $highlight;
+  border-radius: 500px;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 20px;
+
+  &:hover {
+    background-color: $highlight;
+    border-color: $secondary;
+    color: $light;
+  }
+}

@@ -36,8 +36,9 @@ section {
 
 html {
   font-family: sans-serif; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-  -ms-text-size-adjust: 100%; /* 2 */
+  font-size: 1.25rem; /* 1 */
+  -webkit-text-size-adjust: 1.25rem; /* 2 */
+  -ms-text-size-adjust: 1.25rem; /* 2 */
 }
 
 /*
