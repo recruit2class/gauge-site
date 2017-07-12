@@ -1,0 +1,16 @@
+.hero {
+  background-color: $primary;
+  background-image: url("../images/hero-background.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  padding: 3rem 1.5rem 15rem;
+}
+
+.hero__title {
+  @include heading-large;
+  width: 70%;
+}
+
+.hero__copy {
+  width: 50%;
+}
