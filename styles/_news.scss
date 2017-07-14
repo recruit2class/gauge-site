@@ -1,0 +1,48 @@
+.news {
+  color: $dark;
+  background: $light;
+  text-align: center;
+}
+
+.news__title {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.list--news {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.list--news__item {
+  flex: auto;
+  margin: 0 1rem;
+}
+
+.list--news__title {
+  @include heading-small;
+}
+
+.date--news {
+  font-size: 14px;
+  color: $highlight;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.list--news__copy {
+  margin: 1rem 0;
+}
+
+.button--contact {
+  margin: 5rem 0;
+}
+
+.link--read-more {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(44, 62, 80);
+}
