@@ -1,0 +1,27 @@
+footer {
+  background-color: $primary;
+  padding: 4rem 1.5rem;
+}
+
+address {
+  display: flex;
+  font-style: normal;
+  width: 60%;
+
+  div {
+    flex: auto;
+
+    a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 1rem;
+      text-transform: none;
+    }
+  }
+}
+
+.contact > *,
+.address p:first-child {
+  font-weight: bold;
+}
