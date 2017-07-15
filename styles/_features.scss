@@ -5,6 +5,18 @@
   padding: 4.25rem 0;
 }
 
+.list--feature {
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+}
+
+.list--feature__item {
+  @include heading-small;
+  background-position: 0 50%;
+  padding: 1.25rem 0 1.25rem 5rem;
+  margin-bottom: 0.5rem;
+}
+
 .features__copy {
   padding: 0 1.5rem;
   width: 50%;
