@@ -9,19 +9,6 @@
   padding: 5rem 0;
 }
 
-.list--news {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.list--news__item {
-  flex: auto;
-  margin: 0 1rem;
-}
-
 .list--news__title {
   @include heading-small;
 }

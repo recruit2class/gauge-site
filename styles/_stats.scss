@@ -1,18 +1,3 @@
-.stats {
-  display: flex;
-  justify-content: space-between;
-  padding: 6.5rem 0;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.stats__item {
-  text-align: center;
-  background-position-x: center;
-  padding-top: 7rem;
-  width: 20%
-}
-
 .stat__figure {
   color: $highlight;
   @include heading-medium;
