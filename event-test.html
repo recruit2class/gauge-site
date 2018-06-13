@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Test capability in a realistic environment">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gauge</title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2F3BA2">
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <header>
+      <a href="/">
+        <img src="images/Gauge-logo.png" alt="Gauge">
+      </a>
+
+      <nav>
+        <ul class="nav">
+          <li class="nav__item">
+            <a class="nav__link" href="/">Home</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#local_features">Features</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#local_contact">Contact</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link button" href="http://gaugepro.net">Log in</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link button" href="http://gaugepro.net/events">Events Page</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1 class="hero__title">Think you've got what it takes to be a DevOps engineer? Click here</h1><a class="nav__link button" href="http://gaugepro.net/events/fxznaiswijns3jtj30ll/register">Gauge Me Now!</a>
+
+      </section>
+
+      <section id="local_features" class="features">
+        <div class="features__copy">
+          <h1 class="features__title">Features</h1>
+
+          <p>Automating technical assessments for everyone</p>
+
+          <ul class="list--feature">
+            <li class="list--feature__item icon-cogs">Complex assessment environments</li>
+
+            <li class="list--feature__item icon-pen">Define your own assessment questions and tasks</li>
+
+            <li class="list--feature__item icon-cogs">Agile-friendly</li>
+
+            <li class="list--feature__item icon-flame">Fire-and-Forget</li>
+          </ul>
+
+          <a class="button" href="#">Back to Top</a>
+        </div>
+
+        <img src="images/gauge-dashboard.png" alt="Gauge dashboard">
+      </section>
+
+    </main>
+
+    <footer>
+      <address>
+        <div id="local_contact" class="contact">
+          <p>Contact:</p>
+
+          <a class="icon-email" href="mailto:hello@gaugepro.net">hello@gaugepro.net</a>
+
+          <a class="icon-phone" href="tel:+447807489049">07807489049</a>
+        </div>
+
+        <div class="address">
+          <p>Address:</p>
+
+          <p>
+            20 St Dunstans Hill<br>
+            London<br>
+            EC3R 8HL<br>
+            United Kingdom
+          </p>
+        </div>
+
+        <div class="social">
+          <a class="icon--social" href="#">
+            <img alt="Connect with us on LinkedIn" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAMAAABgOjJdAAAA/FBMVEUAAAA0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9uay+2TyOyUyOw0l9uQxuun0u80l9uAvul/veiBv+l7u+i42/J4uues1fC83fOv1vHA3/S+3vNrs+XE4fVnseRpsuRnseTS6PdfreNdrOI0l9tdrOJaq+I0l9taq+I0l9s2mNs3mdw5mdw6mtw+nN1And1Bnt1Cnt1Cnt5En95FoN5GoN5Hod5NpOBRpuBTp+Gz2PK22fLU6ffp9Pvv9/zx+Pzx+P3z+f35/P79/v////8OpeHfAAAAOHRSTlMAAgoLDA4PFUBBQlxdeIaIqL/Aycrj5OXm5+jo6enp6urr6+zs7e3t7u/x8vP09fb3+Pn6+vv8/E1Ly/wAAAEySURBVHgBhZT5UsJADIdTRUFoKVQFVLzv+9DiTwVFRTwUFff938XMrrBKKvv9kUxmvsnCJClZvGwYVWqoVaJwwiPJeFCGpRSkaAB/EX+p+vSb0QIkhRErpKeQxGS630ELrcOmUHpd9BMHXfV5Lh4ija+LPaXUFgbJETNm/sUOGxvCqKbYCKA566i3RwgCIq8MQ/3pEpJpj7IwPMRxfIsGx3uczM+uX8OQoRCGGaXUEvY5zm0q5n0XmjxFwugozUcDYIpUGTSY7pdils0MqSaNlYvmEacFgDklCOOVq1XOa9Ak9Hjh6pjz9k8P+TueuYr7Rokih1Gk0GHkKeswMjyXoQbPhYKhRmD346bdbjdQ53jH1RXnVm8/yMf/5OyeJlOwuy6xu+6+F/fNue/WffvO78c3xIjAbl2su9cAAAAASUVORK5CYII=">
+          </a>
+
+          <a class="icon--social" href="#">
+            <img alt="Follow us on Twitter" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAhCAMAAACLDYleAAABgFBMVEUAAAA0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9t+veg0l9s0l9s0l9uNxeuOxeuQxuuUyOyXyu2Yyu2ay+2l0e80l9uIwuqLw+qq0/Cr1PCEwOmv1vGx1/F+veiAvuiAvum12fI0l9t7u+i32vK63PN2uee73PO83fO+3vM0l9tzt+bA3/RhruPI4/VpsuRmseQ0l9tfreNgrePT6fc0l9tdrOJZquI0l9taq+I0l9s0l9ve7vk0l9s1l9s2mNs4mdw5mdw6mtw8m9w9m90+nN0/nd1And1Bnt1Dn95GoN5Jot9Kot9Mo99PpeDj8frn8/vo8/vp9Pvq9Pvr9fvs9fz1+v32+/33+/75/P78/f79/v/+//////83EEHpAAAAX3RSTlMAAQIFBgcIFBUYGRseKSowMTJASFFYYW94e3yDjI+QlKSoqbW2t8fJzNDS1dXX4OTq6urq6urq6uvr6+vr7Ozs7e3t7e7u7u7v7+/v8PDw8fP09fb4+Pj5+fv8/P3+/gi/+cEAAAFhSURBVHjalZRXVwIxEEZjxYpd7IoI9t4bWLAgir0hOiA2bKgIKorz1zkxIbtLOTnet3y5m02ZhKioaDAPHANMWVqr80gacmt7QWGzuSjFqOwHLfv1ORohu/EcUrAUq3/SDukYLBVGVhtAeqckodRBJrrzmVHuhow0MaUzOfcfLJwCw/03napkw+fC8DxwjFQx84Z1jn86gYgfw17W8BQSUuDhyiiii0pnMaRM8thASI0Y34oYmw3ADjIOWWwipAU4wSjtiKwgZ5nFdkI6IIENNURXHds01pEuZa1OrRMaf6GxnvQIJRDSGN8bM34al6lGgYfpL1Sw8VRP5yLYRRUnPNSxFV0+subirzCs3LAn9qVv6B7gaexTGEfXXDGJ3R35eQ2jgvMOOAbljPYuUPC+5AUQZ6SctG/LEaH9b2vrVyAwJtfLbfD5BhiiXuRVJ69d+Q2Q3yP5bZTf6X+8DPL3JQ6QC0ZfeVHSzQAAAABJRU5ErkJggg==">
+          </a>
+
+          <a class="icon--social" href="#">
+            <img alt="Follow us on Facebook" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAMAAABgOjJdAAAAq1BMVEUAAAA0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9s0l9uVyeyz2PGz2PJ9veh6u+e73PN0uObA3/RstOXQ5/dfreM0l9tcq+I0l9s0l9s2mNs5mdw+nN0/nd1Dn95FoN5GoN7g7/nl8vrm8vvn8/v0+f34+/75/P7///+zTdt/AAAAKXRSTlMAAgoLDA4PFUBBQlxdeIaIqL/Aycrj5OXm6ers7u7v8PDx8fT3+fr7/NGDjsAAAAD+SURBVHjahZTrUsJADEa/igqWroWqUBHFFsHGK4pi3v/JvE2bbLdDzp/OZs7sdpt8hRCdpFleUZVnaRwh5NBNSJi647aQXJLPLIHmYEQho54I/TPq4rzf7OAJD5vX51qpd9FHvMw/mXleH/QvDEl4euNfrut18ndNfYsr9o3ZEQBHijtmvr0p7puCA6ILbbwzfz3qwjTCgDRb5g/yiHHaNra+kWIsi7Isd8y7n0chxQyqX9ywkGKOdZexkmIF6jI2JGBtvGmFiWHkGBtGBvt7DAwjlr6I0eoL3F7DyXwEhswHhnuMJJjTZVEsdSBk1gNk1u282Jmzc2tn3/5/fANAiot3iWDWNwAAAABJRU5ErkJggg==">
+          </a>
+        </div>
+      </address>
+    </footer>
+  </body>
+</html>
